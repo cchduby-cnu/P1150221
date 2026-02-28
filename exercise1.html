@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一個練習檔案</title>
+</head>
+<body>
+    <!-- 頁首區塊 -->
+    <header style="background:#eef; padding:10px; text-align:center;">
+        <h1>歡迎來到我的練習頁面</h1>
+    </header>
+    <!-- 導航列 -->
+    <nav style="background:#dde; padding:8px;">
+        <ul style="list-style:none; margin:0; padding:0; display:flex; gap:12px;">
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        </ul>
+    </nav>
+
+    <!-- 簡單表單示例 -->
+    <form style="margin-top:10px;">
+        <label for="nameInput">姓名：</label>
+        <input type="text" id="nameInput" name="name">
+        <br><br>
+        <label for="colorSelect">喜愛顏色：</label>
+        <select id="colorSelect" name="color">
+            <option value="red">紅色</option>
+            <option value="green">綠色</option>
+            <option value="blue">藍色</option>
+        </select>
+        <br><br>
+        <label for="messageArea">留言：</label>
+        <textarea id="messageArea" name="message" rows="4" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="送出">
+    </form>
+
+    <!-- 這是一個段落元素，用於展示文字 -->
+    <p>這是一個簡單的練習段落。</p>
+
+    <!-- 圖片、音訊、影片示例 -->
+    <!-- 富士山景色圖，尺寸約 320x240 -->
+    <img src="images/mountain.jpg" alt="富士山風景" width="320" height="240" style="display:block; margin-top:10px;">
+    <audio controls style="display:block; margin-top:10px;">
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        您的瀏覽器不支援 audio 元素。
+    </audio>
+    <video controls width="320" height="240" style="display:block; margin-top:10px;">
+        <source src="images/fuji-intro.mp4" type="video/mp4">
+        您的瀏覽器不支援 video 元素。
+    </video>
+
+    <!-- 換行元素示例 -->
+    <br>
+    這一行使用了&lt;br&gt;元素換行。
+
+    <!-- 主要區段 -->
+    <section style="border:1px solid #ccc; padding:10px; margin-top:10px;">
+        <article style="background:#f9f9f9; padding:8px;">
+            <h2>富士山景點介紹</h2>
+            <p>這是設計一個富士山的景點網頁介紹內容</p>
+        </article>
+        <aside style="background:#fff3cd; padding:8px; margin-top:10px;">
+            <h3>日本富士山</h3>
+            <p>富士山是日本最高的山峰，海拔3,776公尺，位於東京西南部。山頂終年積雪，四季風景優美。自古以來被視為日本的象徵與神聖之山，吸引無數的登山者與遊客前往朝聖。</p>
+        </aside>
+    </section>
+
+    <!-- 簡單表格示例 -->
+    <table border="1" style="width:100%; margin-top:10px; border-collapse:collapse;">
+        <thead>
+            <tr>
+                <th>住宿飯店</th>
+                <th>周邊美食</th>
+                <th>鄰近景點</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>富士山食事繁酒店</td>
+                <td>富士山尋常蝦</td>
+                <td>筱根渫急垣</td>
+            </tr>
+            <tr>
+                <td>筱根水渫食事度希酒店</td>
+                <td>磨き汀地員</td>
+                <td>富士五湖</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">富士山旅遊特色：豐富的住宿選擇讓遊客舒適度假，從高級度假飯店到經濟民宿應有盡有；周邊美食匯集日本傳統特色，富士山蕎麥麵與在地雜炊等地方美食令人垂涎；鄰近景點眾多，大涌谷地熱谷地、箱根渡假區、富士五湖等優美風景，四季皆美，是日本經典旅遊勝地。</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- 水平線分隔內容 -->
+    <hr>
+    <footer style="background:#eef; padding:8px; text-align:center;">
+        <p>網站版權 © 2026</p>
+    </footer>
+</body>
+</html>
